@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "Task1",
+    "description": "Task1 has description",
+    "completion_status": false,
+    "creation_date": "23-11-2023"
+  },
+  {
+    "id": 2,
+    "title": "Task2",
+    "description": "Task2 has description",
+    "completion_status": true,
+    "creation_date": "21-11-2023"
+  },
+  {
+    "id": 11,
+    "title": "test 11 title",
+    "description": "task 10 description",
+    "completion_status": false,
+    "creation_date": "20-11-2023"
+  },
+  {
+    "id": 5,
+    "title": "test 5 title",
+    "description": "task 5 description",
+    "completion_status": false,
+    "creation_date": "20-11-2023"
+  },
+  {
+    "id": 6,
+    "title": "test 6 title",
+    "description": "task 6 description",
+    "completion_status": true,
+    "creation_date": "20-11-2023"
+  },
+  {
+    "id": 7,
+    "title": "",
+    "description": "task 6 description",
+    "completion_status": true,
+    "creation_date": "20-11-2023"
+  },
+  {
+    "id": 8,
+    "title": "test 8 title",
+    "description": "task 8 description",
+    "completion_status": false,
+    "priority": "low",
+    "creation_date": "20-11-2023"
+  }
+]
