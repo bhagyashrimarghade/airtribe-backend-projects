@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Chat Application</title>
+  </head>
+  <body>
+    <div class="join-container">
+      <header class="join-header">
+        <h1>Chat</h1>
+      </header>
+      <main class="join-main">
+        <form action="chat.html">
+          <div class="form-control">
+            <label for="username">Username</label>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Enter your username"
+              required
+            />
+          </div>
+          <div class="form-control">
+            <label for="room">Chat Channel</label>
+            <select name="room" id="room">
+              <option value="FrontEnd">FrontEnd</option>
+              <option value="Backend">Backend</option>
+              <option value="FullStack">FullStack</option>
+              <option value="DevOps">DevOps</option>
+            </select>
+          </div>
+          <div class="flex">
+            <button type="submit" class="btn">Start Chat</button>
+          </div>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
